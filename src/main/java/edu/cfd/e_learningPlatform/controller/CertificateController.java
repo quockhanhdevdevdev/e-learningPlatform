@@ -21,5 +21,6 @@ public class CertificateController {
         List<CertificateResponse> certificates = certificateService.getCertificatesForCurrentUser();
         return ResponseEntity.ok(certificates);
     }
+
 }
 
